@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img{
+    width: 150px;
+    height: auto;
+}
+
+.center-nav{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+}
+
+.search input{
+    min-width: 600px;
+    padding: 10px 20px;
+    border: 0.5px solid #ccc;
+}
+
+.search button{
+    border: none;
+    padding: 10px 20px;
+}
+
+.mic{
+    display: grid;
+    place-items: center;
+    padding: 15px 15px;
+    border-radius: 50%;
+    background: rgb(240, 235, 235);
+    margin-left: 15px;
+}
+
+.mic img{
+    width: 30px;
+    height: auto;
+}
+.side-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+/* .tags{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+} */
