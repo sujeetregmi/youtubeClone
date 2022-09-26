@@ -117,5 +117,42 @@ aside{
 }
 
 main{
-    background: rgb(230,230,230);
+    background: rgb(238, 236, 236);
+    height: 100vh;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+}
+
+.card{
+    padding: 10px;
+    max-width: 320px;
+    display:flex;
+    flex-direction: column;
+}
+
+.avatar-content{
+    display: flex;
+}
+
+.card h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.channel-name{
+    font-size: 16px;
+    font-weight:bold;
+}
+.content-status{
+    display: flex;
+    font-size: 14px;
 }
